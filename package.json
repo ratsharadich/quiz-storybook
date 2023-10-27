@@ -1,0 +1,41 @@
+{
+  "name": "storybook-emotion-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ratsharadich <zharchenko.aleksander@gmail.com>",
+  "license": "MIT",
+  "babelMacros": {
+    "twin": {
+      "preset": "emotion"
+    }
+  },
+  "scripts": {
+    "start": "npm run storybook",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-typescript": "^7.21.4",
+    "@emotion/babel-preset-css-prop": "^11.10.0",
+    "@storybook/addon-essentials": "^7.0.7",
+    "@storybook/addon-interactions": "^7.0.7",
+    "@storybook/addon-links": "^7.0.7",
+    "@storybook/blocks": "^7.0.7",
+    "@storybook/nextjs": "^7.5.1",
+    "@storybook/react": "^7.5.1",
+    "@types/react": "^18.2.0",
+    "babel-plugin-twin": "^1.1.0",
+    "storybook": "^7.0.7",
+    "tailwindcss": "^3.3.2",
+    "twin.macro": "^3.3.1",
+    "typescript": "^5.0.4"
+  },
+  "description": "<p><a href=\"https://github.com/ben-rogerson/twin.macro#gh-light-mode-only\" target=\"_blank\"><img src=\"../.github/twin-light.svg\" alt=\"Twin\" width=\"60\" height=\"70\"></a><a href=\"https://github.com/ben-rogerson/twin.macro#gh-dark-mode-only\" target=\"_blank\"><img src=\"../.github/twin-dark.svg\" alt=\"Twin\" width=\"60\" height=\"70\"></a><a href=\"https://storybook.js.org/\" target=\"_blank\"><img src=\"../.github/storybook.svg\" alt=\"Storybook\" width=\"50\" height=\"70\"></a><a href=\"https://emotion.sh/docs/introduction#gh-dark-mode-only\" target=\"_blank\"><img src=\"../.github/emotion.svg\" alt=\"Emotion\" width=\"60\" height=\"70\"></a><a href=\"https://www.typescriptlang.org/\" target=\"_blank\"><img src=\"../.github/typescript.svg\" alt=\"TypeScript\" width=\"60\" height=\"70\"></a></p>"
+}
